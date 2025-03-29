@@ -1,0 +1,45 @@
+{
+  "name": "bitmasker",
+  "version": "1.0.0",
+  "description": "for efficient bitmasking operations, combinatorial problems, and set manipulations using bitwise operations.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnshSinghSonkhia/bitmasker.git"
+  },
+  "keywords": [
+    "bitmask",
+    "bitmasking",
+    "bitwise",
+    "bit-manipulation",
+    "combinations",
+    "subsets",
+    "combinatorial",
+    "set-operations",
+    "binary-operations",
+    "binary-representation",
+    "toggle-bit",
+    "set-bit",
+    "clear-bit",
+    "dynamic-programming",
+    "optimization",
+    "performance",
+    "javascript-utilities",
+    "fast-computing"
+  ],
+  "author": "Ansh Singh Sonkhia",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/AnshSinghSonkhia/bitmasker/issues"
+  },
+  "homepage": "https://github.com/AnshSinghSonkhia/bitmasker#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

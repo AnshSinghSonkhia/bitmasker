@@ -1,9 +1,11 @@
 module.exports = function fromBitmask(mask, mapping) {
-    let result = [];
-    Object.keys(mapping).forEach(key => {
-        if (mask & (1 << mapping[key])) {
-            result.push(key);
+    const result = [];
+
+    for (let pos in mapping) {
+        if ((mask >> pos) & 1) {
+            result.push(mapping[pos]); // Directly use mapping[pos]
         }
-    });
+    }
+
     return result;
 };

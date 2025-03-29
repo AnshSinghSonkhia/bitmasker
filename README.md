@@ -43,8 +43,8 @@ console.log(bm.hammingWeight(5)); // 2  (0b101 has 2 ones)
 console.log(bm.popCountParallel(15)); // 4  (0b1111 has 4 ones)
 
 // Subset & Combination Generation
-console.log(bm.generateSubsets(3));  // [[], [0], [1], [2], [0,1], [0,2], [1,2], [0,1,2]]
-console.log(bm.generateCombinations(4, 2)); // [[0,1], [0,2], [0,3], [1,2], [1,3], [2,3]]
+console.log(bm.generateSubsets(3));  // ['000', '001', '010', '011', '100', '101', '110', '111']
+console.log(bm.generateCombinations(4, 2)); // [ '0011', '0101', '0110', '1001', '1010', '1100' ]
 
 // Bitmask Operations
 const mapping = { a: 0, b: 1, c: 2 };
